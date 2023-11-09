@@ -1,7 +1,7 @@
 function slugify(title) {
-  let war = title.toLowerCase();
-  let hammer = war.split(' ');
-  let slug = hammer.join('-');
+  let num = title.toLowerCase();
+  let sum = num.split(' ');
+  let slug = sum.join('-');
   return slug;
 }
 
